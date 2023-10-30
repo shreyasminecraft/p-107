@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Animal Sound Recognition Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+  </head>
+
+  <body style="background-color: rgb(9, 0, 0); color: aqua;">
+    <div class="col-xs-12 hairstyle text-center">
+<h2  >
+  Sound Controlled Animals
+</h2>
+<p>
+  Note:Play different sounds like barking and meowing
+</p>
+    </div>
+    <div class="manager" >
+
+ 
+      <center>
+    <br>
+    <br>
+    <button class="btn btn-primary" onclick="identification_start()">
+     Play Sound
+    </button>
+
+    <h4 id="results2">
+        Detected dog-""  Detected cat-""
+            </h4>
+    <h3 id="results">
+     Detected voice is of-
+    </h3>
+    
+    <br>
+  <img src="dd5ed82b-b105-4b93-806f-1f9e718b56ec (1).png" id="imgg" width="200" height="200" style="align-self: center;">
+
+      </center>
+    </div>
+    <div class="feet">
+      Developed by - Shreyas
+      
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>
